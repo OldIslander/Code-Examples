@@ -39,7 +39,7 @@ int main()
 	cout << "Input some numbers separated by spaces: ";
 	getline(cin, temp);
 	istringstream dubbles(temp);
-	double dubbletemp; // Yeah, I think it's my system but a while loop will not terminate if cin is the condition for some reason
+	double dubbletemp;
 	while (!dubbles.eof()) {
 		dubbles >> dubbletemp;
 		xVals.push_back(dubbletemp);
